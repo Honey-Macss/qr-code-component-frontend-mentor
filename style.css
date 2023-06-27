@@ -1,0 +1,84 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.wholeBody{
+    background-color: hsl(212, 45%, 89%);
+    height: 100svh;
+    display: grid;
+    place-items: center;
+}
+.mainBody{
+    width: 21rem;
+    height: fit-content;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 1rem 1rem 2rem 1rem;
+    display: grid;
+}
+img{
+    width: 100%;
+    height: 20rem;
+    border-radius: 12px;
+}
+.para{
+    padding: 0 0.8rem;
+    margin-top: 1.5rem;
+}
+.firstPara{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+}
+.secondPara{
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 369px){
+    .wholeBody{
+        padding: 0 0.7rem;
+    }
+    .mainBody{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 355px){
+    .wholeBody{
+        padding: 0 0.3rem;
+    }
+}
+@media only screen and (max-width: 342px){
+    .wholeBody{
+        padding: 0 0rem;
+    }
+}
+@media only screen and (max-width: 332px){
+    .wholeBody{
+        padding: 0 0rem;
+    }
+    .mainBody{
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+    }
+    img{
+        height: 18rem;
+    }
+    .para{
+        padding: 0 0.4rem;
+        margin-top: 1.3rem;
+    }
+    .firstPara{
+        font-size: 1.3rem;
+    }
+    .secondPara{
+        font-size: 0.8rem;
+        margin-top: 1.1rem;
+    }
+}
